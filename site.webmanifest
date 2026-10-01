@@ -1,0 +1,27 @@
+{
+  "name": "Start Linguas",
+  "short_name": "Start Linguas",
+  "description": "Онлайн-школа английского и французского",
+  "lang": "ru",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#EDF1F8",
+  "theme_color": "#2747E8",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

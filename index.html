@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Start Linguas</title>
+<meta name="description" content="Start Linguas: онлайн-школа английского и французского Басиры Мирзоевой. Курсы для взрослых, детей, подростков и медиков, книжный клуб, консультации по учёбе за границей.">
+<meta name="theme-color" content="#EDF1F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1024" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Start Linguas">
+<meta property="og:title" content="Start Linguas: онлайн-школа английского и французского">
+<meta property="og:description" content="Курсы для взрослых, детей, подростков и медиков, книжный клуб и консультации по учёбе за границей. Пробный урок 500 ₽.">
+<meta property="og:image" content="assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<header class="nav" id="top">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="Start Linguas, на главную"><span class="logo-stamp">SL</span>Start Linguas</a>
+    <nav class="nav-links" aria-label="Разделы">
+      <a href="#courses">Курсы</a><a href="#quiz">Подбор</a><a href="#how">Как учимся</a><a href="#founder">Басира</a><a href="#reviews">Отзывы</a><a href="#faq">Вопросы</a>
+    </nav>
+    <a class="nav-cta" href="https://t.me/Start_Linguas" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.2.2-.5.4-1 .4l.3-4.8 8.8-7.9c.4-.3-.1-.5-.6-.2L6.6 13.2 2 11.8c-1-.3-1-1 .2-1.5L20.6 3c.8-.3 1.6.2 1.3 1.3Z"/></svg>Записаться</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="mnav" aria-label="Открыть меню"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h14M3 14h14"/></svg></button>
+  </div>
+  <nav class="mnav" id="mnav" hidden aria-label="Разделы">
+    <a href="#courses">Курсы</a><a href="#quiz">Подобрать курс</a><a href="#how">Как учимся</a><a href="#founder">Основатель</a><a href="#reviews">Отзывы</a><a href="#faq">Вопросы</a><a href="https://t.me/Start_Linguas" target="_blank" rel="noopener">Записаться в Telegram ↗</a>
+  </nav>
+</header>
+<div class="airmail" aria-hidden="true"></div>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="mono kicker">Онлайн-школа языков · с 2019</p>
+      <h1 style="margin-top:18px">
+        <span class="line-mask"><span>Английский</span></span>
+        <span class="line-mask"><span>и <span class="accent">французский</span></span></span>
+        <span class="line-mask"><span>для <span class="swap" id="swap" aria-live="polite"><span>путешествий</span></span></span></span>
+      </h1>
+      <p class="hero-lead">Школа Басиры Мирзоевой, лингвиста со стажем 15 лет и стипендиата Фулбрайт. Уроки в Zoom, все материалы на доске Miro, личный чат с преподавателем в Telegram.</p>
+      <div class="hero-ctas">
+        <a class="btn-ticket magnet" href="#quiz">Подобрать курс <span class="arr">→</span></a>
+        <a class="btn-stamp magnet" href="#courses" data-open="trial">Пробный урок<small>30 мин · 500 ₽</small></a>
+      </div>
+      <div class="hero-stats">
+        <div><b data-count="7">7</b><span>лет учим студентов по всему миру</span></div>
+        <div><b data-count="15">15</b><span>лет преподаёт основатель</span></div>
+        <div><b data-count="10">10</b><span>программ: от Kids до Doctor</span></div>
+        <div><b>500 ₽</b><span>пробное занятие-консультация</span></div>
+      </div>
+    </div>
+    <div class="globe-wrap" aria-hidden="true">
+      <canvas id="globe"></canvas>
+      <div class="postmark"><div>START<b>2019</b>LINGUAS</div></div>
+      <div class="pass">
+        <div class="pass-row"><div><span class="mono">Сейчас</span><b>RU</b></div><div class="pass-plane"></div><div style="text-align:right"><span class="mono">Через 6 мес.</span><b>A2</b></div></div>
+        <div class="pass-foot"><span>Курс Fast · 8 уроков в месяц</span><b>от 10 800 ₽</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee">
+    <span>Hello <i>✦</i> Bonjour <i>✦</i> Привет <i>✦</i> How are you? <i>✦</i> Ça va ? <i>✦</i> Nice to meet you <i>✦</i> Enchanté <i>✦</i> Happy reading <i>✦</i> Salut <i>✦</i></span>
+    <span>Hello <i>✦</i> Bonjour <i>✦</i> Привет <i>✦</i> How are you? <i>✦</i> Ça va ? <i>✦</i> Nice to meet you <i>✦</i> Enchanté <i>✦</i> Happy reading <i>✦</i> Salut <i>✦</i></span>
+  </div>
+</div>
+
+<section class="sec" id="courses">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="mono kicker">Меню курсов</p>
+      <h2 class="reveal-title">Выберите свой билет</h2>
+      <p>Десять программ с ценами для каждого формата. Отфильтруйте по возрасту, языку, цели и бюджету, нажмите на билет, чтобы увидеть всё о курсе и записаться.</p>
+    </div>
+    <div class="catalog">
+      <aside class="filters" id="filters" aria-label="Фильтры курсов">
+        <label class="search" for="q"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Например, «французский»" autocomplete="off"></label>
+        <div class="f-group"><span class="mono">Для кого</span><div class="chips" data-filter="aud"></div></div>
+        <div class="f-group"><span class="mono">Язык</span><div class="chips" data-filter="lang"></div></div>
+        <div class="f-group"><span class="mono">Цель</span><div class="chips" data-filter="goal"></div></div>
+        <div class="f-group"><span class="mono">Формат занятий</span><div class="chips" data-filter="fmt"></div></div>
+        <div class="f-group"><span class="mono">Бюджет в месяц</span>
+          <input id="budget" type="range" min="500" max="16000" step="500" value="16000" aria-label="Максимальный бюджет в месяц">
+          <div class="range-out"><span>до</span><b id="budgetOut">16 000 ₽</b></div>
+        </div>
+        <button class="f-reset" id="reset" type="button">Сбросить фильтры</button>
+      </aside>
+      <div>
+        <div class="cat-top">
+          <span class="count" id="count">10 программ</span>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="f-toggle" id="fToggle" type="button" aria-expanded="false" aria-controls="filters">Фильтры</button>
+            <select id="sort" aria-label="Сортировка">
+              <option value="pop">Сначала популярные</option>
+              <option value="asc">Сначала дешевле</option>
+              <option value="desc">Сначала дороже</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid-courses" id="grid"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec quiz-sec" id="quiz">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="mono kicker">Подбор за 30 секунд</p>
+      <h2>Не знаете, с чего начать?</h2>
+      <p>Четыре вопроса, и вы увидите подходящий курс, формат и стоимость месяца.</p>
+    </div>
+    <div class="quiz">
+      <div class="q-card" id="qcard" aria-live="polite"></div>
+      <div class="quiz-note">
+        <p class="hand">«Самый быстрый старт — пробный урок. За 30 минут я определю ваш уровень и предложу маршрут».<br><span style="font-size:.7em">Басира</span></p>
+        <ul>
+          <li><b>01</b><span>Пишете в Telegram, какой курс вам интересен.</span></li>
+          <li><b>02</b><span>Проходите пробное занятие-консультацию: 30 минут, 500 ₽.</span></li>
+          <li><b>03</b><span>Вносите предоплату и получаете ссылку на Zoom и доску Miro.</span></li>
+          <li><b>04</b><span>Учитесь в личной группе с преподавателем и получаете сертификат.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="route" id="route">
+  <div class="route-pin">
+    <div class="wrap sec-head" style="margin-bottom:36px">
+      <p class="mono kicker">Маршрут курса Fast</p>
+      <h2>С нуля до A2 за 6 месяцев</h2>
+      <p>6 модулей по 4 недели, в каждом 8 занятий. Пролистайте маршрут.</p>
+    </div>
+    <div class="route-track" id="track">
+      <article class="leg"><div class="leg-n"><b>1</b><span class="mono">Месяц 1</span></div><h3>Первые фразы</h3><p>Алфавит, звуки, знакомство и ответы на простые вопросы о себе.</p><div class="meter"><i style="width:17%"></i></div></article>
+      <article class="leg"><div class="leg-n"><b>2</b><span class="mono">Месяц 2</span></div><h3>Повседневные темы</h3><p>Семья, работа, город, распорядок дня. Первые диалоги без подсказок.</p><div class="meter"><i style="width:33%"></i></div></article>
+      <article class="leg"><div class="leg-n"><b>3</b><span class="mono">Месяц 3</span></div><h3>Уверенный A1</h3><p>Говорите о планах и прошлом, понимаете медленную речь.</p><div class="meter"><i style="width:50%"></i></div></article>
+      <article class="leg"><div class="leg-n"><b>4</b><span class="mono">Месяц 4</span></div><h3>Ситуации в поездке</h3><p>Аэропорт, отель, кафе, покупки. Отрабатываем живые сценарии.</p><div class="meter"><i style="width:67%"></i></div></article>
+      <article class="leg"><div class="leg-n"><b>5</b><span class="mono">Месяц 5</span></div><h3>Свободный разговор</h3><p>Рассказываете истории, спорите, задаёте уточняющие вопросы.</p><div class="meter"><i style="width:83%"></i></div></article>
+      <article class="leg final"><div class="leg-n"><b>A2</b><span class="mono">Месяц 6</span></div><h3>Разговорный уровень</h3><p>Финальный модуль и сертификат с уровнем, датами и количеством часов.</p><div class="meter"><i style="width:100%"></i></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="mono kicker">Как проходит обучение</p>
+      <h2>Всё, что нужно, уже онлайн</h2>
+      <p>Учебники и тетради покупать не нужно. Подключайтесь с телефона, ноутбука или планшета.</p>
+    </div>
+    <div class="tools">
+      <article class="tool"><div class="tool-ico"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="5" y="11" width="21" height="18" rx="4"/><path d="m26 17 9-5v16l-9-5"/></svg></div><h3>Zoom</h3><p>Уроки проходят в Zoom. Скачайте приложение и подключайтесь по ссылке, регистрация не нужна.</p><a href="https://zoom.us/download" target="_blank" rel="noopener">Скачать Zoom ↗</a></article>
+      <article class="tool"><div class="tool-ico"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="5" y="7" width="30" height="22" rx="3"/><path d="M12 34h16M20 29v5M11 20l5-5 4 4 8-7"/></svg></div><h3>Доска Miro</h3><p>Все материалы, аудио и видео лежат на онлайн-доске. На ней же вы пишете и выполняете задания.</p></article>
+      <article class="tool"><div class="tool-ico"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M34 8 5 19l9 3 3 9 5-6 7 5 5-22Z"/><path d="m14 22 14-9"/></svg></div><h3>Telegram</h3><p>С каждым учеником у нас личная группа в Telegram с преподавателем: вопросы, домашние задания, напоминания.</p></article>
+      <article class="tool"><div class="tool-ico"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="6" y="8" width="28" height="26" rx="3"/><path d="M6 15h28M13 5v6M27 5v6M12 22h5M12 28h5M23 22h5"/></svg></div><h3>Google</h3><p>Почта, календарь и Google Диск: расписание и материалы всегда под рукой.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="founder" style="padding-top:0">
+  <div class="wrap founder">
+    <div class="passport" id="passport">
+      <div style="display:flex;justify-content:space-between"><span class="mono">Паспорт преподавателя</span><span class="mono">№ 2019</span></div>
+      <div class="pp-emblem">SL</div>
+      <div>
+        <span class="mono">Основатель школы</span>
+        <h3>Басира<br>Мирзоева</h3>
+        <p style="margin-top:8px;color:rgba(241,233,201,.85)">Английский · Французский · Русский как иностранный</p>
+      </div>
+      <p class="pp-mrz">P&lt;SLMIRZOEVA&lt;&lt;BASIRA&lt;&lt;&lt;&lt;EN&lt;FR&lt;&lt;&lt;15YRS&lt;&lt;&lt;&lt;FULBRIGHT&lt;&lt;</p>
+    </div>
+    <div>
+      <div class="sec-head" style="margin-bottom:24px">
+        <p class="mono kicker">Преподаватели</p>
+        <h2>Штампы в паспорте основателя</h2>
+      </div>
+      <p class="bio-lead"><span class="hand">«Меня зовут Басира.</span> Я лингвист и преподаю иностранные языки 15 лет. В школе я собрала лучших специалистов и носителей языка, чтобы обучение было самым эффективным».</p>
+      <ol class="visas">
+        <li class="visa" style="--sc:var(--cobalt);--rot:-8deg"><span class="visa-seal" aria-hidden="true">ФИЯ<br>EN·FR</span><div class="visa-txt"><b>Факультет иностранных языков</b><span>Английский, французский и литература</span></div><span class="visa-tag">Образование</span></li>
+        <li class="visa" style="--sc:var(--stamp);--rot:6deg"><span class="visa-seal" aria-hidden="true">PAR<br>LON</span><div class="visa-txt"><b>Стажировки в Париже и Лондоне</b><span>Языковые стажировки в столицах языков, которые она преподаёт</span></div><span class="visa-tag">Стажировки</span></li>
+        <li class="visa" style="--sc:var(--cobalt);--rot:-5deg"><span class="visa-seal" aria-hidden="true">USA<br>FUL</span><div class="visa-txt"><b>Грант Фулбрайт, США</b><span>Престижная стипендия и обучение в Lewis and Clark College: лингвистика и история</span></div><span class="visa-tag">Грант</span></li>
+        <li class="visa" style="--sc:var(--stamp);--rot:9deg"><span class="visa-seal" aria-hidden="true">TOEFL<br>DALF</span><div class="visa-txt"><b>TOEFL · DALF · DELF</b><span>Международные сертификаты по английскому и французскому</span></div><span class="visa-tag">Сертификаты</span></li>
+        <li class="visa" style="--sc:var(--cobalt);--rot:-7deg"><span class="visa-seal" aria-hidden="true">RU<br>USA</span><div class="visa-txt"><b>Преподавание в университетах</b><span>Английский и французский в Российском университете туризма и сервиса, русский язык в американском университете</span></div><span class="visa-tag">Университеты</span></li>
+        <li class="visa" style="--sc:var(--stamp);--rot:5deg"><span class="visa-seal" aria-hidden="true">PDX<br>VOL</span><div class="visa-txt"><b>Волонтёрство в Портленде</b><span>Преподавала английский иммигрантам, работала в государственных школах и частных центрах</span></div><span class="visa-tag">Опыт</span></li>
+      </ol>
+      <div class="launch"><b>2019</b><p>Запуск собственного проекта: онлайн-школы языков Start Linguas.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec cert-sec">
+  <div class="wrap cert-grid">
+    <div class="sec-head" style="margin:0">
+      <p class="mono kicker">Сертификаты</p>
+      <h2>Документ, который подтверждает результат</h2>
+      <p>После прохождения курса вы получите сертификат. В нём указаны ваш уровень владения языком, даты обучения и количество пройденных часов.</p>
+    </div>
+    <div class="cert" id="cert">
+      <span class="mono" style="color:var(--muted)">Образец · Certificate of completion</span>
+      <h3>Сертификат об окончании курса</h3>
+      <dl>
+        <dt>Курс</dt><dd>Fast</dd>
+        <dt>Уровень</dt><dd>A2</dd>
+        <dt>Даты</dt><dd>6 месяцев обучения</dd>
+        <dt>Часы</dt><dd>48 занятий</dd>
+      </dl>
+      <p class="hand sign">B. Mirzoeva</p>
+      <div class="seal">SL</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px">
+      <div class="sec-head" style="margin:0">
+        <p class="mono kicker">Отзывы выпускников</p>
+        <h2>Открытки от наших студентов</h2>
+      </div>
+      <div class="rev-nav"><button type="button" id="revPrev" aria-label="Предыдущий отзыв">←</button><button type="button" id="revNext" aria-label="Следующий отзыв">→</button></div>
+    </div>
+    <div class="cards-row" id="reviewsRow" tabindex="0" aria-label="Отзывы, листаются горизонтально">
+      <article class="postcard"><blockquote>Я мечтаю стать врачом и записалась на курс по медицинскому английскому. Мы проходили различные темы из сферы медицины по британским учебникам. Занятия английским только усиливали мою тягу стать врачом. Полученные знания помогут мне в моей будущей профессии.</blockquote><div class="pc-side"><div class="pc-stamp" style="--sc:#0E8A6A">Doctor</div></div><div class="pc-who"><div><b>Айшат Куршиева</b><span>Абитуриент · @kurshieva_a</span></div><span class="hand">Medical English</span></div></article>
+      <article class="postcard"><blockquote>Я учусь на дизайнера в Москве и люблю искусство. Начала изучать французский с нуля, мы дошли до среднего уровня. Много работали над произношением, изучали культуру Франции. Басира очень помогла мне с новым для меня языком. Я уже побывала в Париже!</blockquote><div class="pc-side"><div class="pc-stamp" style="--sc:#C2414F">Salut</div></div><div class="pc-who"><div><b>Патимат Абдусамедова</b><span>Дизайнер, студентка · @patyaaya</span></div><span class="hand">Français</span></div></article>
+      <article class="postcard"><blockquote>Мне было всего 5 лет, когда я начала учить английский с мисс Басирой. Читать по-английски я научилась раньше, чем по-русски. Все удивляются, что я говорю без акцента. На уроках мы разговариваем, читаем, поём песни, смотрим мультики и даже рисуем.</blockquote><div class="pc-side"><div class="pc-stamp" style="--sc:#E39A17">Kids</div></div><div class="pc-who"><div><b>Барият Багомедова</b><span>Школьница</span></div><span class="hand">5 лет на старте</span></div></article>
+      <article class="postcard"><blockquote>Для меня очень важно развиваться в профессии. Английский нужен мне в зарубежных поездках, для чтения иностранной литературы и курсов повышения квалификации. Обучение и обмен опытом с коллегами-психологами со всего мира были бы невозможны без языка.</blockquote><div class="pc-side"><div class="pc-stamp" style="--sc:#2747E8">Smart</div></div><div class="pc-who"><div><b>Амина Халидова</b><span>Психолог · megalichnost</span></div><span class="hand">English for work</span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq" style="padding-top:0">
+  <div class="wrap faq-grid">
+    <div class="sec-head">
+      <p class="mono kicker">Частые вопросы</p>
+      <h2>У вас есть вопросы?</h2>
+      <p>Не нашли ответ? Напишите нам в Telegram, ответим лично.</p>
+    </div>
+    <div>
+      <details open><summary>Как отменить или перенести занятие?<span class="pm">+</span></summary><p class="ans">Занятия проводятся по предоплате. Бесплатно отменить урок можно до 20:00 накануне. Если отмена позже, занятие оплачивается полностью.</p></details>
+      <details><summary>Что нужно для занятий?<span class="pm">+</span></summary><p class="ans">Подойдут телефон, ноутбук или планшет. Мы рекомендуем планшет со стилусом: так удобнее писать и выполнять задания на онлайн-доске.</p></details>
+      <details><summary>Нужно ли покупать учебники?<span class="pm">+</span></summary><p class="ans">Нет. Все материалы, аудио и видео мы загружаем на доску Miro, вы работаете прямо на ней.</p></details>
+      <details><summary>Нужна ли регистрация в Zoom?<span class="pm">+</span></summary><p class="ans">Нет. Достаточно скачать приложение и подключиться к уроку по ссылке.</p></details>
+      <details><summary>Сколько длится урок?<span class="pm">+</span></summary><p class="ans">Индивидуальный урок для взрослых длится 55 минут, для детей 5–10 лет 40 минут, для подростков 50 минут. Парные и групповые занятия идут по 60 минут, 8 раз в месяц.</p></details>
+      <details><summary>Выдаёте ли вы сертификаты?<span class="pm">+</span></summary><p class="ans">Да. В сертификате указаны уровень владения языком, даты обучения и количество пройденных часов.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="sec contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="mono kicker">Связаться с нами</p>
+      <h2 style="margin-top:16px">Ваш билет<br>ждёт отправки</h2>
+      <p class="lead">Напишите в Telegram, какой курс вас интересует, и мы подберём время пробного урока.</p>
+    </div>
+    <div class="c-links">
+      <a class="c-link" href="https://t.me/Start_Linguas" target="_blank" rel="noopener"><div><b>Telegram</b><span>@Start_Linguas</span></div><span aria-hidden="true">↗</span></a>
+      <a class="c-link" href="https://www.instagram.com/basira_mirzoeva" target="_blank" rel="noopener"><div><b>Instagram</b><span>@basira_mirzoeva</span></div><span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><span>© Start Linguas, онлайн-школа иностранных языков</span><span>Занятия в Zoom · по всему миру</span></div></footer>
+
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTitle"><div class="sheet-in" id="sheetIn" data-lenis-prevent></div></dialog>
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
